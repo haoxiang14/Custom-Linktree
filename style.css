@@ -1,0 +1,96 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
+body{
+    background-color: #fcf4ff;
+}
+
+.profile {
+    
+    position: relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;
+    height: auto;
+    max-width: 200px;
+
+    border-radius: 50%; 
+    border: 2px solid black;
+    z-index: 1;
+}
+
+
+.bg{
+    background-image: url(https://cdn.discordapp.com/attachments/966648657996828708/1000107030889103460/5402207.jpg); 
+    /* background-image: url(https://cdn.discordapp.com/attachments/966648657996828708/1000703655462326282/tech_bg.gif); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.profile-name{
+
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Cascadia Code', sans-serif;
+    color : rgb(115, 112, 112);
+
+}
+
+.links{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-width: 2px;
+
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    font-size: 18 px;
+
+}
+
+a{
+
+    font-family: 'Cascadia Code', sans-serif;
+    font-weight: 542;
+    font-size: 15px;
+    color: #187980;
+    background-color: #d3d3d3;
+    padding: 15px 30px;
+    border: solid #d3d3d3 ;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 0px;
+    transition : 1000ms;
+    transform: translateY(0);
+    text-transform: uppercase;
+}
+
+
+a:hover{
+
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #264653;
+    border: solid #264653;
+
+}
+
+
+
+
